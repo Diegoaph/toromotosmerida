@@ -17,7 +17,7 @@ axios.defaults.baseURL = "http://localhost:3001";
 function App() {
     const location = useLocation();
     const path: string = location.pathname;
-
+    console.log(path);
     return (
         <main>
             <NavBar />
