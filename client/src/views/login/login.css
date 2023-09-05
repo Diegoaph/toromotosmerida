@@ -1,0 +1,46 @@
+.input {
+    background-color: rgb(129, 129, 129);
+    border: none; /* Elimina el borde del botón */
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    color: white; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: text;
+    outline: none;
+    margin: 0 1rem 0 1rem;
+}
+.ctaButton {
+    background-color: red;
+    border: none; /* Elimina el borde del botón */
+    border-radius: 100px;
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    color: white; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    outline: none; /* Elimina el contorno al hacer clic */
+    /* Agrega más estilos personalizados aquí */
+}
+form {
+    background-image: url("bg_toro_ia.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.loginBox {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: black;
+    border-radius: 5px;
+}

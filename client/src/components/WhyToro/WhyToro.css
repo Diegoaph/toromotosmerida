@@ -1,0 +1,63 @@
+.container {
+    padding: 2rem 0 2rem;
+
+    height: 100%;
+}
+.WhyToroOuter {
+    margin-top: 2rem;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0 0.5rem 0;
+}
+h3 {
+    margin: 0;
+    font-size: xx-large;
+}
+.WhyToro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    margin: 0 3rem 0 3rem;
+    flex-wrap: wrap;
+}
+.WhyItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+.num {
+    color: red;
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+}
+p {
+    color: black;
+    font-weight: bolder;
+    margin: 0;
+}
+h4 {
+    font-weight: bolder;
+    margin: 0;
+}
+.text {
+    font-size: smaller;
+}
+.image {
+    min-height: 60vh;
+}

@@ -1,0 +1,5 @@
+main {
+    z-index: -3;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+}

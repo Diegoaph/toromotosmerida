@@ -1,0 +1,35 @@
+.atention {
+    background-color: red;
+    padding: 0 2rem 0 2rem;
+}
+
+.text {
+    color: black;
+}
+
+.ctaButton {
+    background-color: red;
+    border: none; /* Elimina el borde del botón */
+    border-radius: 100px;
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    color: white; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    outline: none; /* Elimina el contorno al hacer clic */
+    /* Agrega más estilos personalizados aquí */
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 0 1rem 2rem;
+    gap: 1rem;
+
+    flex-wrap: wrap;
+}
+.textMessage {
+    font-size: x-large;
+}

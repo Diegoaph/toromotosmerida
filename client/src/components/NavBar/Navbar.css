@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    z-index: 2;
+    background-color: #000000;
+    padding: 0 0.5rem 0;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+.invisible {
+    display: none;
+}
+.logoCont {
+    height: 80%;
+}
+.merida {
+    font-size: x-large;
+}
+img {
+    height: 3rem;
+}
+.button {
+    background-color: black;
+    border: none; /* Elimina el borde del botón */
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    color: white; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    outline: none;
+    margin: 0 1rem 0 1rem;
+}
+.selected {
+    background-color: black;
+    border: none; /* Elimina el borde del botón */
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    color: white; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    outline: none;
+    margin: 0 1rem 0 1rem;
+    text-decoration: underline;
+    filter: drop-shadow(0 1px 1px gray);
+}
+button {
+    background-color: black;
+    border: none; /* Elimina el borde del botón */
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    color: white; /* Color de texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    outline: none;
+    margin: 0 1rem 0 1rem;
+}
