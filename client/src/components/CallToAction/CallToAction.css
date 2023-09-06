@@ -15,10 +15,10 @@
     text-decoration: none; /* Elimina la decoración de texto */
     padding: 10px 20px; /* Ajusta el relleno según sea necesario */
     color: white; /* Color de texto */
-    font-size: 16px; /* Tamaño de fuente */
+    font-size: 30px; /* Tamaño de fuente */
     cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
     outline: none; /* Elimina el contorno al hacer clic */
-    /* Agrega más estilos personalizados aquí */
+    margin-right: 2rem;
 }
 
 .cta {
@@ -28,7 +28,6 @@
     align-items: center;
     padding: 3rem 0 1rem 2rem;
     gap: 1rem;
-
     flex-wrap: wrap;
 }
 .textMessage {

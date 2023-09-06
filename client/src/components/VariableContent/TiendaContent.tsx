@@ -4,7 +4,7 @@ import "../WhyToro/WhyToro.css";
 const TiendaContent: React.FC<{}> = () => {
     return (
         <div className="WhyToro">
-            <div className="content">
+            <div className="WhyItem">
                 <p>
                     -CASCOS
                     <br />
@@ -26,11 +26,13 @@ const TiendaContent: React.FC<{}> = () => {
                 </p>
             </div>
 
-            <img
-                src="leon180.png"
-                alt="leon"
-                className="image"
-            />
+            <div className="WhyItem">
+                <img
+                    src="leon180.png"
+                    alt="leon"
+                    className="image"
+                />
+            </div>
         </div>
     );
 };
