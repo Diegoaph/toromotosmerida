@@ -82,8 +82,12 @@ button {
         display: block;
     }
 }
-
-@media (max-width: 452px) {
+@media (max-width: 455px) {
+    .social {
+        display: none;
+    }
+}
+@media (max-width: 370px) {
     nav {
         height: 6rem;
     }
