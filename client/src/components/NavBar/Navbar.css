@@ -58,3 +58,36 @@ button {
     outline: none;
     margin: 0 1rem 0 1rem;
 }
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    filter: drop-shadow(0 1px 1px gray);
+}
+
+.sandwich {
+    display: none;
+}
+@media (max-width: 1200px) {
+    .cornerButtons {
+        display: flex;
+        flex-direction: row;
+    }
+    .buttons {
+        display: none;
+    }
+    .sandwich {
+        display: block;
+    }
+}
+
+@media (max-width: 452px) {
+    nav {
+        height: 6rem;
+    }
+    .menu {
+        top: 6rem;
+    }
+}

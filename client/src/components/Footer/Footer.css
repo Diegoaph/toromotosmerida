@@ -2,10 +2,12 @@ footer {
     display: flex;
     z-index: 2;
     background-color: #080808;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border: none;
     height: 4rem;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
