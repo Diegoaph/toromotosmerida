@@ -21,7 +21,8 @@ const TiendaContent: React.FC<{}> = () => {
                     -CANDADOS Y ALARMAS
                     <br />
                     <br />
-                    -PIEZAS ORIGINALES{" "}
+                    -PIEZAS ORIGINALES <br />
+                    <br />
                 </p>
             </div>
 

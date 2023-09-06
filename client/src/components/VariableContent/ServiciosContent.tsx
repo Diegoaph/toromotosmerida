@@ -18,7 +18,8 @@ const ServiciosContent: React.FC<{}> = () => {
                     -TENSIÓN Y LUBRICADO DE CADENA
                     <br />
                     <br />
-                    -ELECTRICISTA ESPECIALIZADO{" "}
+                    -ELECTRICISTA ESPECIALIZADO <br />
+                    <br />
                 </p>
             </div>
 

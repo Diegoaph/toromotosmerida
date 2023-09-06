@@ -9,13 +9,15 @@ const Navbar: React.FC<{}> = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
         <nav>
-            <div className="logoCont">
+            <a
+                href="/"
+                className="logoCont">
                 <img
                     src="IMAGOTIPO-HORIZONTAL-TORO-MOTORCYCLES-TRANSPARENTE.png"
                     alt="Toro Motos Mérida"
                 />
                 <span className="merida">MÉRIDA</span>
-            </div>
+            </a>
             <div className="buttons">
                 <button className={path == "/" ? "selected" : "button"}>
                     <NavLink
