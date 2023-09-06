@@ -87,7 +87,7 @@ button {
         display: none;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 372px) {
     nav {
         height: 6rem;
     }

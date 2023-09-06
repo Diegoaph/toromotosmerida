@@ -6,19 +6,22 @@ const TiendaContent: React.FC<{}> = () => {
         <div className="WhyToro">
             <div className="content">
                 <p>
-                    -SERVICIO GENERAL
+                    -CASCOS
                     <br />
                     <br />
-                    -CHEQUEO POR GARANTÍA
+                    -MALETAS Y ALFORJAS
                     <br />
                     <br />
-                    -CAMBIO DE ACEITE Y FILTRO
+                    -VESTIMENTA CON PROTECCIÓN
                     <br />
                     <br />
-                    -TENSIÓN Y LUBRICADO DE CADENA
+                    -ACCESORIOS
                     <br />
                     <br />
-                    -ELECTRICISTA ESPECIALIZADO{" "}
+                    -CANDADOS Y ALARMAS
+                    <br />
+                    <br />
+                    -PIEZAS ORIGINALES{" "}
                 </p>
             </div>
 
