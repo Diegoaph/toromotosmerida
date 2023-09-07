@@ -67,8 +67,18 @@ button {
     right: 0;
     top: 4rem;
     filter: drop-shadow(0 1px 1px gray);
+    animation: scale-up-horizontal-right 0.4s;
 }
-
+@keyframes scale-up-horizontal-right {
+    0% {
+        transform: scaleX(0.4);
+        transform-origin: right center;
+    }
+    100% {
+        transform: scaleX(1);
+        transform-origin: right center;
+    }
+}
 .sandwich {
     display: none;
 }

@@ -58,7 +58,7 @@ h4 {
     font-size: smaller;
 }
 .image {
-    min-height: 80vh;
+    height: 80vh;
 }
 @media (max-width: 372px) {
     .container {
@@ -68,10 +68,9 @@ h4 {
 @media (max-width: 950px) {
     .WhyToro {
         justify-content: left;
-        margin: 0;
-        padding: 1rem;
     }
     .image {
-        max-height: 1;
+        max-width: 100%;
+        height: auto;
     }
 }
