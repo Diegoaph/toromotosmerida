@@ -4,10 +4,15 @@ import App from "./App.tsx";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+const routeElement = document.getElementById("root") 
+if(routeElement) {
+  ReactDOM.createRoot(routeElement).render(
+    <React.StrictMode>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </React.StrictMode>
+  );
+} else {
+  console.log("Elemento con id 'route' no existe en el documento"); 
+}
