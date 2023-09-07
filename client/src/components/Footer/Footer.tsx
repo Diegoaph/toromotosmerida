@@ -1,21 +1,34 @@
 import React from "react";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 const Footer: React.FC<{}> = () => {
     return (
         <footer>
             <div>
-                Escríbenos <br /> Merida@Toromotos.com
+                Avenida ejemplo con calle cualquiera, Mérida
+                <br />
+                <br /> Avenida ejemplo con calle cualquiera, Egido
             </div>
             <div>
-                Trabaja en Toro <br /> click aqui
+                Escríbenos <br />
+                <br /> Merida@Toromotos.com
+            </div>
+
+            <div>
+                Teléfono <br />
+                <br /> 0424-789-456
             </div>
             <div>
-                Teléfono <br /> 0424-789-456
+                Trabaja en
+                <br />
+                <br />
+                TORO
             </div>
-            <div>
-                Avenida ejemplo con calle cualquiera, Mérida <br /> Avenida
-                ejemplo con calle cualquiera, Egido
-            </div>
+            <NavLink
+                className="button"
+                to="/admin">
+                admin
+            </NavLink>
         </footer>
     );
 };
