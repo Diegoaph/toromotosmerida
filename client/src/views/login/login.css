@@ -22,7 +22,7 @@
     /* Agrega más estilos personalizados aquí */
 }
 form {
-    background-image: url(../../../public/bg_toro_ia.jpeg);
+    background-image: url(/bg_toro_ia.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
