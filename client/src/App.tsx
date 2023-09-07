@@ -1,5 +1,4 @@
 import {
-    BrowserRouter as Router,
     Routes,
     Route,
     useLocation,
@@ -43,11 +42,12 @@ function App() {
         </main>
     );
 }
+export default App
 
-export default function Main() {
-    return (
-        <Router>
-            <App />
-        </Router>
-    );
-}
+// export default function Main() {
+//     return (
+//         <Router>
+//             <App />
+//         </Router>
+//     );
+// }
